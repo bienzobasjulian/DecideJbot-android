@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/sorteos"
+        android:title="Sorteos"
+        android:icon="@drawable/raffle24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/holder"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/decisiones"
+        android:title="Decisiones"
+        android:icon="@drawable/change"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+</menu>

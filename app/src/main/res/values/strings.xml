@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DecideJbot</string>
+    <string name="title_sorteos">Sorteos</string>
+    <string name="title_decisiones">Decisiones</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_SorteoSimple">Sorteo simple</string>
+    <string name="desc_SorteoSimple">Crea un sorteo índicando únicamente los participantes y el número de premios.</string>
+    <string name="desc_numParticipantes">En caso de no indicar el nº de premios, todos los participantes obtendrán un premio.</string>
+    <string name="loading_resultados">Generando resultados...</string>
+    <string name="guardarListaParticipantes">Guardar lista de participantes</string>
+    <string name="cargarListaParticipantes">Cargar lista de participantes</string>
+
+
+    !-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
