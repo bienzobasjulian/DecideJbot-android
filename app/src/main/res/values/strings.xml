@@ -5,14 +5,16 @@
     <string name="title_perfil">Perfil</string>
     <string name="title_SorteoSimple">Sorteo simple</string>
     <string name="desc_SorteoSimple">Crea un sorteo índicando únicamente los participantes y el número de premios.</string>
+    <string name="desc_dados">El lanzador de dados de DecideJbot lanza un dado de 11 caras (1 a 10 ambos incluídos + Cara especial, equivalente a 0 o dale un valor/uso personalizado)</string>
     <string name="desc_numParticipantes">En caso de no indicar el nº de premios, todos los participantes obtendrán un premio.</string>
     <string name="loading_resultados">Generando resultados...</string>
     <string name="guardarListaParticipantes">Guardar lista de participantes</string>
     <string name="cargarListaParticipantes">Cargar lista de participantes</string>
-
-
-    !-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="correoElectronico">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="sinSesion">Acceder sin sesión</string>
 
 
 </resources>

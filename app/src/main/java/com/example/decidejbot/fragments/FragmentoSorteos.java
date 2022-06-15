@@ -10,13 +10,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.decidejbot.CaraCruz;
+import com.example.decidejbot.activities.Dado;
+import com.example.decidejbot.activities.Flecha;
 import com.example.decidejbot.activities.NumerosAleatorios;
 import com.example.decidejbot.R;
 import com.example.decidejbot.activities.SorteoSimple;
 
 
 public class FragmentoSorteos extends Fragment implements View.OnClickListener{
-    CardView cardSorteoSimple, cardNumerosAleatorios;
+    CardView cardSorteoSimple, cardNumerosAleatorios, cardFlecha, cardDado, cardCoin;
+
 
     public FragmentoSorteos() {
         // Required empty public constructor
@@ -30,9 +34,16 @@ public class FragmentoSorteos extends Fragment implements View.OnClickListener{
 
         cardSorteoSimple = view.findViewById(R.id.cardSorteoSimple);
         cardNumerosAleatorios = view.findViewById(R.id.cardNumerosAleatorios);
+        cardFlecha = view.findViewById(R.id.cardFlecha);
+        cardDado = view.findViewById(R.id.cardDado);
+        cardCoin = view.findViewById(R.id.cardCoin);
+
 
         cardSorteoSimple.setOnClickListener(this);
         cardNumerosAleatorios.setOnClickListener(this);
+        cardFlecha.setOnClickListener(this);
+        cardDado.setOnClickListener(this);
+        cardCoin.setOnClickListener(this);
 
 
 
@@ -50,6 +61,16 @@ public class FragmentoSorteos extends Fragment implements View.OnClickListener{
             case R.id.cardNumerosAleatorios:
                  intent = new Intent(getActivity(), NumerosAleatorios.class);
                 break;
+            case R.id.cardFlecha:
+                intent = new Intent(getActivity(), Flecha.class);
+                break;
+            case R.id.cardDado:
+                intent = new Intent(getActivity(), Dado.class);
+                break;
+            case R.id.cardCoin:
+                intent = new Intent(getActivity(), CaraCruz.class);
+                break;
+
 
 
         }

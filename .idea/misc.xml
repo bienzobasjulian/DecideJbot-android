@@ -19,10 +19,32 @@
         <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/layout/fragmento_decisiones.xml" value="0.25416666666666665" />
         <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/layout/fragmento_perfil.xml" value="0.264" />
         <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/layout/fragmento_sorteos.xml" value="0.25" />
+        <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/layout/listitem_participante.xml" value="0.264" />
         <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/layout/loading_resultados_dialog.xml" value="0.16574074074074074" />
         <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/layout/resultados.xml" value="0.2" />
         <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/DAM2/Programacion multimedia/AndroidStudio/DecideJbot/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22407407407407406" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/drawable/wave.xml" value="0.2703125" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_cara_cruz.xml" value="0.1962962962962963" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_dado.xml" value="0.264" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_flecha.xml" value="0.264" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_login.xml" value="0.22777777777777777" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_numeros_aleatorios.xml" value="0.25416666666666665" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_ruleta.xml" value="0.24010416666666667" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_sorteo_avanzado.xml" value="0.13020833333333334" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/activity_sorteo_simple.xml" value="0.25416666666666665" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/bottomsheet_guardar_sorteo.xml" value="0.264" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/bottomsheet_sorteo_simple.xml" value="0.23148148148148148" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/content_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/dialog_listas_participantes.xml" value="0.20555555555555555" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/dialog_resultado_sorteo_simple.xml" value="0.20555555555555555" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/fragmento_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/fragmento_perfil.xml" value="0.1328125" />
+        <entry key="..\:/DAM2/TFG/2505/app/src/main/res/layout/fragmento_sorteos.xml" value="0.4" />
       </map>
     </option>
   </component>

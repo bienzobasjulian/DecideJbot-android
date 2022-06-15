@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "138681067828",
+    "project_id": "decidejbot",
+    "storage_bucket": "decidejbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138681067828:android:9fcbfd667f27e2022b9d61",
+        "android_client_info": {
+          "package_name": "com.example.decidejbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138681067828-0rjer7s54j15e1t4nnd9evtc8muvat17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.decidejbot",
+            "certificate_hash": "7342f05dda731656f1e749cf49f442717543f915"
+          }
+        },
+        {
+          "client_id": "138681067828-qj2u1jfln81i4n2km1d450iub0461psp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7-BfmIFZBKKGf_pu12bf8h-t1xF7c08Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138681067828-qj2u1jfln81i4n2km1d450iub0461psp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

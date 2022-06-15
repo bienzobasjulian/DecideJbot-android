@@ -8,31 +8,40 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.GestureDetector;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 
 import com.example.decidejbot.BuildConfig;
 import com.example.decidejbot.R;
 import com.example.decidejbot.fragments.FragmentoDecisiones;
-import com.example.decidejbot.fragments.FragmentoPerfil;
+import com.example.decidejbot.fragments.FragmentoHome;
 import com.example.decidejbot.fragments.FragmentoSorteos;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.firestore.FirebaseFirestore;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     FragmentoSorteos fragmentoSorteos = new FragmentoSorteos();
     FragmentoDecisiones fragmentoDecisiones = new FragmentoDecisiones();
-    FragmentoPerfil fragmentoPerfil = new FragmentoPerfil();
+    FragmentoHome fragmentoHome = new FragmentoHome();
     BottomNavigationView bottomNavigationView;
     FloatingActionButton btnInicio;
     Fragment fragmentoAbierto = null;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        loadFragment(fragmentoHome);
+        fragmentoAbierto = fragmentoHome;
+
+
 
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
@@ -60,11 +69,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 bottomNavigationView.setSelectedItemId(R.id.holder);
-                if (fragmentoAbierto != null){
 
-                    closeFragment(fragmentoAbierto);
-                    fragmentoAbierto = null;
-                }
+                    loadFragment(fragmentoHome);
+                    fragmentoAbierto = fragmentoHome;
+
+
+
+
+
             }
         });
 
@@ -106,8 +118,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void mostrarDialogoNovedades(){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setTitle("Novedades de la beta 22.04.21");
-        builder.setMessage("-Sorteo simple: ¡Carga tus listas de participantes guardadas! (Se pueden mezclar diferentes listas))");
+        builder.setTitle("Novedades de la beta 22.06.08");
+        builder.setMessage("- Solución de bugs en la carga de sorteos" );
         builder.show();
     }
 
@@ -121,6 +133,7 @@ public class MainActivity extends AppCompatActivity {
         return result;
 
     }
+
 
 
 }
